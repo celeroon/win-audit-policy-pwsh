@@ -65,7 +65,7 @@ $auditPolicies = @(
     @{ Subcategory="Handle Manipulation"; Success="enable"; Failure="enable" },
     @{ Subcategory="File Share"; Success="enable"; Failure="enable" },
     @{ Subcategory="Filtering Platform Packet Drop"; Success="disable"; Failure="disable" },
-    @{ Subcategory="Filtering Platform Connection"; Success="enable"; Failure="enable" },
+    @{ Subcategory="Filtering Platform Connection"; Success="disable"; Failure="enable" },
     @{ Subcategory="Other Object Access Events"; Success="enable"; Failure="enable" },
     @{ Subcategory="Detailed File Share"; Success="enable"; Failure="enable" },
     @{ Subcategory="Removable Storage"; Success="enable"; Failure="enable" },
